@@ -1,0 +1,72 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cartoonimator"
+version = "0.1.0"
+description = "AI illustrates, code animates. Deterministic mascot animation from pose PNGs + Rhubarb visemes."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.11"
+authors = [
+    { name = "Connor Gallic" },
+]
+keywords = ["animation", "mascot", "lipsync", "rhubarb", "ffmpeg", "tts"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Multimedia :: Sound/Audio :: Speech",
+]
+dependencies = [
+    "Pillow>=10.0",
+    "PyYAML>=6.0",
+    "requests>=2.31",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.5",
+]
+
+[project.scripts]
+cartoonimator = "cartoonimator.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/cgallic/cartoonimator"
+Repository = "https://github.com/cgallic/cartoonimator"
+Issues = "https://github.com/cgallic/cartoonimator/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cartoonimator"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/src",
+    "/mascots",
+    "/assets",
+    "/examples",
+    "/tests",
+    "/docs",
+    "/README.md",
+    "/LICENSE",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "integration: tests that require external services (rhubarb, ffmpeg, network)",
+]

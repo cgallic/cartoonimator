@@ -1,0 +1,438 @@
+{
+  "character": "kai",
+  "version": "1.0.0",
+  "poses": [
+    {
+      "id": "standing_open_hands",
+      "filename": "standing_open_hands.png",
+      "description": "Welcoming open-hand gesture, no phone",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": []
+    },
+    {
+      "id": "standing_chop_explain",
+      "filename": "standing_chop_explain.png",
+      "description": "Standing, right-hand chop gesture",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": []
+    },
+    {
+      "id": "standing_arms_out",
+      "filename": "standing_arms_out.png",
+      "description": "Arms spread wide presenting",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": []
+    },
+    {
+      "id": "standing_hand_on_chest",
+      "filename": "standing_hand_on_chest.png",
+      "description": "Hand on chest, sincere",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": []
+    },
+    {
+      "id": "standing_thumbs_up",
+      "filename": "standing_thumbs_up.png",
+      "description": "Thumbs-up approval",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": []
+    },
+    {
+      "id": "walking_purposeful",
+      "filename": "walking_purposeful.png",
+      "description": "Mid-stride walking purposefully",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": []
+    },
+    {
+      "id": "walking_with_clipboard",
+      "filename": "walking_with_clipboard.png",
+      "description": "Walking carrying clipboard",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": [
+        "clipboard"
+      ]
+    },
+    {
+      "id": "walking_with_rotary_phone",
+      "filename": "walking_with_rotary_phone.png",
+      "description": "Walking while on the rotary phone",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": [
+        "rotary_phone"
+      ]
+    },
+    {
+      "id": "walking_briefcase",
+      "filename": "walking_briefcase.png",
+      "description": "Walking with briefcase",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": [
+        "briefcase"
+      ]
+    },
+    {
+      "id": "walking_through_door",
+      "filename": "walking_through_door.png",
+      "description": "Walking through doorway, arrival",
+      "env_tags": [
+        "abstract",
+        "indoor_office"
+      ],
+      "props": []
+    },
+    {
+      "id": "sitting_desk_writing",
+      "filename": "sitting_desk_writing.png",
+      "description": "Seated at desk, writing on paper",
+      "env_tags": [
+        "indoor_office"
+      ],
+      "props": [
+        "pen",
+        "paper",
+        "rotary_phone"
+      ]
+    },
+    {
+      "id": "sitting_chair_relaxed",
+      "filename": "sitting_chair_relaxed.png",
+      "description": "Seated cross-legged in chair, relaxed",
+      "env_tags": [
+        "abstract",
+        "indoor_office"
+      ],
+      "props": []
+    },
+    {
+      "id": "sitting_couch_listening",
+      "filename": "sitting_couch_listening.png",
+      "description": "Seated on couch, attentive listening",
+      "env_tags": [
+        "indoor_office"
+      ],
+      "props": []
+    },
+    {
+      "id": "sitting_legs_crossed_clipboard",
+      "filename": "sitting_legs_crossed_clipboard.png",
+      "description": "Seated with clipboard on knee",
+      "env_tags": [
+        "abstract",
+        "indoor_office"
+      ],
+      "props": [
+        "clipboard",
+        "pen"
+      ]
+    },
+    {
+      "id": "sitting_review_papers",
+      "filename": "sitting_review_papers.png",
+      "description": "Seated reviewing papers",
+      "env_tags": [
+        "indoor_office"
+      ],
+      "props": [
+        "paper"
+      ]
+    },
+    {
+      "id": "listening_hand_at_chin",
+      "filename": "listening_hand_at_chin.png",
+      "description": "Standing, hand at chin, listening",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": []
+    },
+    {
+      "id": "listening_arms_crossed",
+      "filename": "listening_arms_crossed.png",
+      "description": "Standing with arms crossed, listening",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": []
+    },
+    {
+      "id": "listening_leaning_in",
+      "filename": "listening_leaning_in.png",
+      "description": "Leaning in to listen",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": []
+    },
+    {
+      "id": "listening_nodding",
+      "filename": "listening_nodding.png",
+      "description": "Mid-nod listening with notebook",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": [
+        "notebook"
+      ]
+    },
+    {
+      "id": "listening_taking_notes",
+      "filename": "listening_taking_notes.png",
+      "description": "Standing taking notes mid-listen",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": [
+        "notebook",
+        "pen"
+      ]
+    },
+    {
+      "id": "pointing_off_frame_right",
+      "filename": "pointing_off_frame_right.png",
+      "description": "Pointing off-frame right",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": []
+    },
+    {
+      "id": "pointing_at_clipboard",
+      "filename": "pointing_at_clipboard.png",
+      "description": "Pointing at line on clipboard",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": [
+        "clipboard"
+      ]
+    },
+    {
+      "id": "pointing_at_chart",
+      "filename": "pointing_at_chart.png",
+      "description": "Pointing at wall chart",
+      "env_tags": [
+        "indoor_office"
+      ],
+      "props": []
+    },
+    {
+      "id": "pointing_at_camera",
+      "filename": "pointing_at_camera.png",
+      "description": "Pointing at camera (you)",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": []
+    },
+    {
+      "id": "pointing_at_diagram_paper",
+      "filename": "pointing_at_diagram_paper.png",
+      "description": "Holding diagram paper, studying",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": [
+        "paper"
+      ]
+    },
+    {
+      "id": "thinking_hand_chin",
+      "filename": "thinking_hand_chin.png",
+      "description": "Classic thinker, hand at chin",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": []
+    },
+    {
+      "id": "thinking_finger_to_temple",
+      "filename": "thinking_finger_to_temple.png",
+      "description": "Finger to temple thinking",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": []
+    },
+    {
+      "id": "thinking_eyes_closed",
+      "filename": "thinking_eyes_closed.png",
+      "description": "Eyes-closed deep thinking",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": []
+    },
+    {
+      "id": "thinking_papers_review",
+      "filename": "thinking_papers_review.png",
+      "description": "Standing reviewing paper stack",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": [
+        "paper"
+      ]
+    },
+    {
+      "id": "thinking_walking_slow",
+      "filename": "thinking_walking_slow.png",
+      "description": "Slow-pace walking thinking",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": []
+    },
+    {
+      "id": "laughing_genuine",
+      "filename": "laughing_genuine.png",
+      "description": "Genuine head-back laugh",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": []
+    },
+    {
+      "id": "laughing_subtle_smirk",
+      "filename": "laughing_subtle_smirk.png",
+      "description": "Subtle amused smirk",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": []
+    },
+    {
+      "id": "surprised_eyebrows_up",
+      "filename": "surprised_eyebrows_up.png",
+      "description": "Mildly surprised, eyebrows up",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": []
+    },
+    {
+      "id": "impressed_nodding",
+      "filename": "impressed_nodding.png",
+      "description": "Impressed approving nod",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": []
+    },
+    {
+      "id": "celebrating_fist_air",
+      "filename": "celebrating_fist_air.png",
+      "description": "Celebratory fist punch in air",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": []
+    },
+    {
+      "id": "celebrating_clapping",
+      "filename": "celebrating_clapping.png",
+      "description": "Clapping hands together",
+      "env_tags": [
+        "abstract",
+        "any"
+      ],
+      "props": []
+    },
+    {
+      "id": "working_typewriter",
+      "filename": "working_typewriter.png",
+      "description": "Typing on vintage typewriter",
+      "env_tags": [
+        "indoor_office"
+      ],
+      "props": [
+        "typewriter",
+        "paper"
+      ]
+    },
+    {
+      "id": "working_writing_letter",
+      "filename": "working_writing_letter.png",
+      "description": "Writing a letter at desk",
+      "env_tags": [
+        "indoor_office"
+      ],
+      "props": [
+        "letter",
+        "fountain_pen",
+        "envelope"
+      ]
+    },
+    {
+      "id": "working_chalkboard",
+      "filename": "working_chalkboard.png",
+      "description": "At chalkboard with chalk",
+      "env_tags": [
+        "indoor_office"
+      ],
+      "props": [
+        "chalk",
+        "chalkboard"
+      ]
+    },
+    {
+      "id": "working_holding_documents",
+      "filename": "working_holding_documents.png",
+      "description": "Holding stack of folders/documents",
+      "env_tags": [
+        "indoor_office",
+        "any"
+      ],
+      "props": [
+        "folders",
+        "paper"
+      ]
+    }
+  ]
+}

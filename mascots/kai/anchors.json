@@ -1,0 +1,1112 @@
+{
+  "image_size": [
+    1024,
+    1024
+  ],
+  "default": {
+    "mouth": {
+      "cx": 516,
+      "cy": 150,
+      "open_w": 36,
+      "open_h": 18,
+      "box": {
+        "x": 501,
+        "y": 144,
+        "w": 31,
+        "h": 14
+      }
+    },
+    "left_eye": {
+      "cx": 495,
+      "cy": 107,
+      "w": 18,
+      "h": 12
+    },
+    "right_eye": {
+      "cx": 537,
+      "cy": 107,
+      "w": 18,
+      "h": 12
+    },
+    "outline_color": [
+      26,
+      26,
+      46,
+      255
+    ]
+  },
+  "character_bbox": [
+    369,
+    31,
+    663,
+    999
+  ],
+  "per_pose": {
+    "celebrating_clapping": {
+      "mouth": {
+        "cx": 516,
+        "cy": 264,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 492,
+          "y": 260,
+          "w": 54,
+          "h": 14
+        }
+      },
+      "left_eye": {
+        "cx": 487,
+        "cy": 208,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 544,
+        "cy": 208,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "celebrating_fist_air": {
+      "mouth": {
+        "cx": 518,
+        "cy": 258,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 490,
+          "y": 252,
+          "w": 53,
+          "h": 17
+        }
+      },
+      "left_eye": {
+        "cx": 486,
+        "cy": 200,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 546,
+        "cy": 200,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "impressed_nodding": {
+      "mouth": {
+        "cx": 536,
+        "cy": 274,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 510,
+          "y": 265,
+          "w": 45,
+          "h": 19
+        }
+      },
+      "left_eye": {
+        "cx": 493,
+        "cy": 213,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 553,
+        "cy": 207,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "laughing_genuine": {
+      "mouth": {
+        "cx": 474,
+        "cy": 238,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 432,
+          "y": 215,
+          "w": 75,
+          "h": 39
+        }
+      },
+      "left_eye": {
+        "cx": 426,
+        "cy": 179,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 485,
+        "cy": 167,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "laughing_subtle_smirk": {
+      "mouth": {
+        "cx": 510,
+        "cy": 171,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 486,
+          "y": 163,
+          "w": 40,
+          "h": 24
+        }
+      },
+      "left_eye": {
+        "cx": 483,
+        "cy": 126,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 529,
+        "cy": 126,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "listening_arms_crossed": {
+      "mouth": {
+        "cx": 568,
+        "cy": 167,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 546,
+          "y": 161,
+          "w": 36,
+          "h": 16
+        }
+      },
+      "left_eye": {
+        "cx": 548,
+        "cy": 129,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 584,
+        "cy": 130,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "listening_hand_at_chin": {
+      "mouth": {
+        "cx": 516,
+        "cy": 257,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 492,
+          "y": 248,
+          "w": 47,
+          "h": 25
+        }
+      },
+      "left_eye": {
+        "cx": 499,
+        "cy": 197,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 554,
+        "cy": 209,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "listening_leaning_in": {
+      "mouth": {
+        "cx": 497,
+        "cy": 277,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 474,
+          "y": 271,
+          "w": 52,
+          "h": 20
+        }
+      },
+      "left_eye": {
+        "cx": 466,
+        "cy": 214,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 530,
+        "cy": 214,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "listening_nodding": {
+      "mouth": {
+        "cx": 497,
+        "cy": 155,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 476,
+          "y": 148,
+          "w": 40,
+          "h": 19
+        }
+      },
+      "left_eye": {
+        "cx": 473,
+        "cy": 110,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 517,
+        "cy": 111,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "listening_taking_notes": {
+      "mouth": {
+        "cx": 517,
+        "cy": 143,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 500,
+          "y": 135,
+          "w": 28,
+          "h": 20
+        }
+      },
+      "left_eye": {
+        "cx": 503,
+        "cy": 99,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 540,
+        "cy": 110,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "pointing_at_camera": {
+      "mouth": {
+        "cx": 494,
+        "cy": 255,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 466,
+          "y": 249,
+          "w": 54,
+          "h": 22
+        }
+      },
+      "left_eye": {
+        "cx": 462,
+        "cy": 196,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 523,
+        "cy": 196,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "pointing_at_chart": {
+      "mouth": {
+        "cx": 709,
+        "cy": 255,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 684,
+          "y": 247,
+          "w": 48,
+          "h": 24
+        }
+      },
+      "left_eye": {
+        "cx": 680,
+        "cy": 201,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 734,
+        "cy": 202,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "pointing_at_clipboard": {
+      "mouth": {
+        "cx": 558,
+        "cy": 270,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 524,
+          "y": 256,
+          "w": 60,
+          "h": 31
+        }
+      },
+      "left_eye": {
+        "cx": 551,
+        "cy": 218,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 595,
+        "cy": 224,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "pointing_at_diagram_paper": {
+      "mouth": {
+        "cx": 569,
+        "cy": 246,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 554,
+          "y": 246,
+          "w": 43,
+          "h": 19
+        }
+      },
+      "left_eye": {
+        "cx": 540,
+        "cy": 199,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 589,
+        "cy": 197,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "pointing_off_frame_right": {
+      "mouth": {
+        "cx": 392,
+        "cy": 246,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 366,
+          "y": 239,
+          "w": 54,
+          "h": 22
+        }
+      },
+      "left_eye": {
+        "cx": 367,
+        "cy": 197,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 411,
+        "cy": 192,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "sitting_chair_relaxed": {
+      "mouth": {
+        "cx": 514,
+        "cy": 187,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 489,
+          "y": 185,
+          "w": 51,
+          "h": 11
+        }
+      },
+      "left_eye": {
+        "cx": 492,
+        "cy": 143,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 536,
+        "cy": 145,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "sitting_couch_listening": {
+      "mouth": {
+        "cx": 549,
+        "cy": 307,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 524,
+          "y": 298,
+          "w": 55,
+          "h": 28
+        }
+      },
+      "left_eye": {
+        "cx": 530,
+        "cy": 246,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 588,
+        "cy": 256,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "sitting_desk_writing": {
+      "mouth": {
+        "cx": 624,
+        "cy": 307,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 602,
+          "y": 304,
+          "w": 52,
+          "h": 14
+        }
+      },
+      "left_eye": {
+        "cx": 587,
+        "cy": 259,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 644,
+        "cy": 251,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "sitting_legs_crossed_clipboard": {
+      "mouth": {
+        "cx": 616,
+        "cy": 267,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 592,
+          "y": 259,
+          "w": 39,
+          "h": 23
+        }
+      },
+      "left_eye": {
+        "cx": 609,
+        "cy": 221,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 650,
+        "cy": 232,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "sitting_review_papers": {
+      "mouth": {
+        "cx": 535,
+        "cy": 305,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 510,
+          "y": 299,
+          "w": 51,
+          "h": 18
+        }
+      },
+      "left_eye": {
+        "cx": 505,
+        "cy": 249,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 563,
+        "cy": 245,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "standing_arms_out": {
+      "mouth": {
+        "cx": 514,
+        "cy": 172,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 490,
+          "y": 167,
+          "w": 46,
+          "h": 17
+        }
+      },
+      "left_eye": {
+        "cx": 493,
+        "cy": 135,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 530,
+        "cy": 135,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "standing_chop_explain": {
+      "mouth": {
+        "cx": 517,
+        "cy": 259,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 486,
+          "y": 250,
+          "w": 63,
+          "h": 21
+        }
+      },
+      "left_eye": {
+        "cx": 485,
+        "cy": 192,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 552,
+        "cy": 196,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "standing_hand_on_chest": {
+      "mouth": {
+        "cx": 518,
+        "cy": 239,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 491,
+          "y": 233,
+          "w": 53,
+          "h": 18
+        }
+      },
+      "left_eye": {
+        "cx": 489,
+        "cy": 184,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 545,
+        "cy": 185,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "standing_open_hands": {
+      "mouth": {
+        "cx": 516,
+        "cy": 262,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 491,
+          "y": 255,
+          "w": 52,
+          "h": 19
+        }
+      },
+      "left_eye": {
+        "cx": 487,
+        "cy": 206,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 546,
+        "cy": 205,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "standing_thumbs_up": {
+      "mouth": {
+        "cx": 513,
+        "cy": 246,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 484,
+          "y": 237,
+          "w": 56,
+          "h": 27
+        }
+      },
+      "left_eye": {
+        "cx": 482,
+        "cy": 190,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 538,
+        "cy": 187,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "surprised_eyebrows_up": {
+      "mouth": {
+        "cx": 508,
+        "cy": 273,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 488,
+          "y": 264,
+          "w": 39,
+          "h": 19
+        }
+      },
+      "left_eye": {
+        "cx": 478,
+        "cy": 206,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 539,
+        "cy": 210,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "thinking_eyes_closed": {
+      "mouth": {
+        "cx": 516,
+        "cy": 234,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 497,
+          "y": 230,
+          "w": 44,
+          "h": 15
+        }
+      },
+      "left_eye": {
+        "cx": 489,
+        "cy": 182,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 545,
+        "cy": 179,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "thinking_finger_to_temple": {
+      "mouth": {
+        "cx": 518,
+        "cy": 243,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 496,
+          "y": 240,
+          "w": 47,
+          "h": 11
+        }
+      },
+      "left_eye": {
+        "cx": 493,
+        "cy": 184,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 550,
+        "cy": 183,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "thinking_hand_chin": {
+      "mouth": {
+        "cx": 502,
+        "cy": 174,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 488,
+          "y": 168,
+          "w": 38,
+          "h": 18
+        }
+      },
+      "left_eye": {
+        "cx": 483,
+        "cy": 134,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 519,
+        "cy": 130,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "thinking_papers_review": {
+      "mouth": {
+        "cx": 542,
+        "cy": 173,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 530,
+          "y": 168,
+          "w": 25,
+          "h": 14
+        }
+      },
+      "left_eye": {
+        "cx": 534,
+        "cy": 135,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 567,
+        "cy": 143,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "thinking_walking_slow": {
+      "mouth": {
+        "cx": 501,
+        "cy": 168,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 487,
+          "y": 165,
+          "w": 38,
+          "h": 10
+        }
+      },
+      "left_eye": {
+        "cx": 478,
+        "cy": 133,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 513,
+        "cy": 132,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "walking_briefcase": {
+      "mouth": {
+        "cx": 534,
+        "cy": 177,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 514,
+          "y": 174,
+          "w": 42,
+          "h": 14
+        }
+      },
+      "left_eye": {
+        "cx": 514,
+        "cy": 138,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 558,
+        "cy": 139,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "walking_purposeful": {
+      "mouth": {
+        "cx": 539,
+        "cy": 181,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 522,
+          "y": 172,
+          "w": 38,
+          "h": 19
+        }
+      },
+      "left_eye": {
+        "cx": 517,
+        "cy": 139,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 558,
+        "cy": 139,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "walking_through_door": {
+      "mouth": {
+        "cx": 467,
+        "cy": 186,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 444,
+          "y": 178,
+          "w": 44,
+          "h": 23
+        }
+      },
+      "left_eye": {
+        "cx": 451,
+        "cy": 143,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 491,
+        "cy": 151,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "walking_with_clipboard": {
+      "mouth": {
+        "cx": 577,
+        "cy": 180,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 557,
+          "y": 177,
+          "w": 39,
+          "h": 16
+        }
+      },
+      "left_eye": {
+        "cx": 557,
+        "cy": 140,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 597,
+        "cy": 140,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "walking_with_rotary_phone": {
+      "mouth": {
+        "cx": 510,
+        "cy": 181,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 494,
+          "y": 175,
+          "w": 37,
+          "h": 17
+        }
+      },
+      "left_eye": {
+        "cx": 495,
+        "cy": 141,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 534,
+        "cy": 142,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "working_chalkboard": {
+      "mouth": {
+        "cx": 634,
+        "cy": 246,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 619,
+          "y": 239,
+          "w": 41,
+          "h": 20
+        }
+      },
+      "left_eye": {
+        "cx": 620,
+        "cy": 195,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 664,
+        "cy": 206,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "working_filing_cabinet": {
+      "mouth": {
+        "cx": 619,
+        "cy": 228,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 606,
+          "y": 221,
+          "w": 50,
+          "h": 14
+        }
+      },
+      "left_eye": {
+        "cx": 587,
+        "cy": 182,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 635,
+        "cy": 179,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "working_holding_documents": {
+      "mouth": {
+        "cx": 524,
+        "cy": 239,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 494,
+          "y": 233,
+          "w": 65,
+          "h": 19
+        }
+      },
+      "left_eye": {
+        "cx": 492,
+        "cy": 181,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 550,
+        "cy": 183,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "working_typewriter": {
+      "mouth": {
+        "cx": 531,
+        "cy": 190,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 518,
+          "y": 184,
+          "w": 38,
+          "h": 15
+        }
+      },
+      "left_eye": {
+        "cx": 503,
+        "cy": 153,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 539,
+        "cy": 150,
+        "w": 18,
+        "h": 12
+      }
+    },
+    "working_writing_letter": {
+      "mouth": {
+        "cx": 627,
+        "cy": 334,
+        "open_w": 36,
+        "open_h": 18,
+        "box": {
+          "x": 596,
+          "y": 324,
+          "w": 59,
+          "h": 25
+        }
+      },
+      "left_eye": {
+        "cx": 605,
+        "cy": 276,
+        "w": 18,
+        "h": 12
+      },
+      "right_eye": {
+        "cx": 665,
+        "cy": 287,
+        "w": 18,
+        "h": 12
+      }
+    }
+  }
+}
