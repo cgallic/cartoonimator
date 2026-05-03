@@ -2,7 +2,13 @@
 
 **AI illustrates, code animates.**
 
-<video src="https://twin.connorgallic.com/cartoonimator-demo.mp4" width="360" controls autoplay muted loop></video>
+<p>
+  <a href="https://github.com/cgallic/cartoonimator/blob/main/demo.mp4">
+    <img src="assets/demo.gif" alt="Kai cycling through poses with synced mouth flap and a blink" width="360">
+  </a>
+  <br>
+  <em>▶ <a href="https://github.com/cgallic/cartoonimator/blob/main/demo.mp4">Watch in HD (MP4, 1.9 MB)</a></em>
+</p>
 
 Deterministic mascot animation: feed it a pose PNG, an audio WAV, and a few anchor coordinates. Get back a lip-synced cartoon video. No diffusion in the render loop, no frame-to-frame wobble, no GPU required.
 

@@ -22,5 +22,7 @@ Thumbs.db
 *.mp3
 !tests/fixtures/*.wav
 !examples/*.wav
+!demo.mp4
+!assets/demo.gif
 out/
 renders/
