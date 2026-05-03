@@ -1,5 +1,9 @@
 # cartoonimator
 
+[![CI](https://github.com/cgallic/cartoonimator/actions/workflows/ci.yml/badge.svg)](https://github.com/cgallic/cartoonimator/actions/workflows/ci.yml)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 **AI illustrates, code animates.**
 
 <p>
@@ -138,6 +142,20 @@ cartoonimator build-library --char-dir mascots/yourname --workers 5
 
 The library generator uses GPT Image 2 via OpenRouter to render each pose against a green-screen background, then keys the green out to produce transparent PNGs ready for `cartoonimator tag`. See `mascots/kai/pose-specs.json` for a reference spec format.
 
+## How it compares
+
+|                              | cartoonimator | Adobe Character Animator | Live2D | Synthesia / HeyGen |
+|------------------------------|:-------------:|:------------------------:|:------:|:------------------:|
+| Open source                  | ✅            | ❌                       | ❌     | ❌                 |
+| Self-hosted, no API costs    | ✅            | ❌ (Adobe sub)           | ✅     | ❌ (per-minute)   |
+| Code-driven (CI, scriptable) | ✅            | ❌ (GUI)                 | ❌ (GUI) | ⚠️ (API only)    |
+| Deterministic output         | ✅            | ⚠️ (live capture varies) | ✅    | ❌                 |
+| GPU required                 | ❌            | ❌                       | ❌     | ✅ (cloud)        |
+| Photorealistic              | ❌ (cartoon)  | ❌                       | ❌     | ✅                 |
+| Bring your own art           | ✅            | ⚠️ (Adobe puppets)       | ✅    | ❌ (avatar library) |
+
+In one line: **a CLI version of Adobe Character Animator's lip-sync, brand-agnostic, MIT-licensed, with no facial-tracking webcam loop.**
+
 ## What this is not
 
 - Not a video editor. Cuts are pose changes every N seconds. No transitions, no effects, no zooms.
@@ -147,3 +165,7 @@ The library generator uses GPT Image 2 via OpenRouter to render each pose agains
 ## License
 
 MIT. See `LICENSE`.
+
+## Made by
+
+Built by [Connor Gallic](https://connorgallic.com) alongside [KaiCalls](https://kaicalls.com) (AI voice agent) and [MeetKai](https://meetkai.xyz) (AI marketing execution). Kai — the reference mascot — is the shared brand character across both.
