@@ -107,6 +107,23 @@ render_scene(audio_wav=audio_path, ...)
 
 A MOSS-TTS provider stub is included for users running a self-hosted MOSS-TTS server.
 
+## Other commands
+
+```bash
+# Trim a clip
+cartoonimator cut --input long.mp4 --start 12.0 --end 27.5 --output clip.mp4
+
+# Mix music under an existing video
+cartoonimator mix-music --video clip.mp4 --music score.mp3 --volume 0.15 --output final.mp4
+
+# Generate a fresh mascot pose library from prompts (needs OPENROUTER_API_KEY)
+# Requires mascots/yourname/character-bible.md (with a fenced base prompt)
+# and mascots/yourname/pose-specs.json (list of {id, prompt, description}).
+cartoonimator build-library --char-dir mascots/yourname --workers 5
+```
+
+The library generator uses GPT Image 2 via OpenRouter to render each pose against a green-screen background, then keys the green out to produce transparent PNGs ready for `cartoonimator tag`. See `mascots/kai/pose-specs.json` for a reference spec format.
+
 ## What this is not
 
 - Not a video editor. Cuts are pose changes every N seconds. No transitions, no effects, no zooms.

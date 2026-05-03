@@ -27,6 +27,7 @@ from .scene import (
     insert_blink,
     render_shots,
 )
+from .video_utils import cut_window, mix_music
 
 __version__ = "0.1.0"
 
@@ -55,6 +56,9 @@ __all__ = [
     "MOUTH_SHAPE_MAP_2",
     "MOUTH_SHAPE_MAP_4",
     "RhubarbError",
+    # video utils
+    "mix_music",
+    "cut_window",
     # version
     "__version__",
 ]

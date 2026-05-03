@@ -1,0 +1,289 @@
+[
+  {
+    "id": "standing_open_hands",
+    "prompt": "Pose: Kai standing upright facing forward, both hands open at chest height with palms up in a welcoming gesture, no phone in this scene, slight confident half-smile, eyes on the camera. Pure secretary-presenting energy. Solid green background, no desk, no other props.",
+    "description": "Welcoming open-hand gesture, no phone",
+    "env_tags": ["abstract", "any"],
+    "props": []
+  },
+  {
+    "id": "standing_chop_explain",
+    "prompt": "Pose: Kai standing, right hand making a vertical karate-chop gesture at chest height as if making a precise point, left hand in his trouser pocket, slight focused half-smile, no phone in scene. Explaining-the-detail energy.",
+    "description": "Standing, right-hand chop gesture",
+    "env_tags": ["abstract", "any"],
+    "props": []
+  },
+  {
+    "id": "standing_arms_out",
+    "prompt": "Pose: Kai standing, both arms spread wide and slightly forward at chest height with palms open and relaxed, slight nod, slight half-smile, no phone in scene. Presenting-an-idea energy.",
+    "description": "Arms spread wide presenting",
+    "env_tags": ["abstract", "any"],
+    "props": []
+  },
+  {
+    "id": "standing_hand_on_chest",
+    "prompt": "Pose: Kai standing, right hand resting flat on his chest in a sincerity gesture, left hand at his side, slight thoughtful smile, eyes on camera. The 'you have my word' frame, no phone in scene.",
+    "description": "Hand on chest, sincere",
+    "env_tags": ["abstract", "any"],
+    "props": []
+  },
+  {
+    "id": "standing_thumbs_up",
+    "prompt": "Pose: Kai standing, right hand giving a clear thumbs-up at chest height, left hand at his side, slight confident smile, eyes on camera. Approval / 'all good' energy. No phone.",
+    "description": "Thumbs-up approval",
+    "env_tags": ["abstract", "any"],
+    "props": []
+  },
+  {
+    "id": "walking_purposeful",
+    "prompt": "Pose: Kai mid-stride walking forward, one foot raised mid-step, both arms in natural walking swing, head turned slightly forward, slight focused expression. Confident-pace energy. No phone in scene.",
+    "description": "Mid-stride walking purposefully",
+    "env_tags": ["abstract", "any"],
+    "props": []
+  },
+  {
+    "id": "walking_with_clipboard",
+    "prompt": "Pose: Kai mid-stride walking, clipboard tucked under his right arm, left arm in mid-swing, head turned forward, slight focused half-smile.",
+    "description": "Walking carrying clipboard",
+    "env_tags": ["abstract", "any"],
+    "props": ["clipboard"]
+  },
+  {
+    "id": "walking_with_rotary_phone",
+    "prompt": "Pose: Kai mid-stride walking, holding the BLACK rotary phone base in his left hand at waist height with the handset in his right hand to his ear, the coiled cord between them. The phone follows him as he walks. Mid-conversation-on-the-go energy.",
+    "description": "Walking while on the rotary phone",
+    "env_tags": ["abstract", "any"],
+    "props": ["rotary_phone"]
+  },
+  {
+    "id": "walking_briefcase",
+    "prompt": "Pose: Kai mid-stride walking, leather briefcase in his right hand at his side, left arm in natural walking swing, head turned slightly forward, calm focused expression. Vintage business-traveler energy.",
+    "description": "Walking with briefcase",
+    "env_tags": ["abstract", "any"],
+    "props": ["briefcase"]
+  },
+  {
+    "id": "walking_through_door",
+    "prompt": "Pose: Kai mid-step entering through an off-frame doorway from the left, right hand visible on the door frame, left foot crossing the threshold, slight half-smile, no phone in scene. Arrival energy.",
+    "description": "Walking through doorway, arrival",
+    "env_tags": ["abstract", "indoor_office"],
+    "props": []
+  },
+  {
+    "id": "sitting_desk_writing",
+    "prompt": "Pose: Kai seated at a wooden desk, leaning slightly forward, right hand mid-write on a piece of paper with a pen, left hand resting flat on the desk, head down focused on the page, calm focused expression. The black rotary phone is on the corner of the desk but he is NOT using it.",
+    "description": "Seated at desk, writing on paper",
+    "env_tags": ["indoor_office"],
+    "props": ["pen", "paper", "rotary_phone"]
+  },
+  {
+    "id": "sitting_chair_relaxed",
+    "prompt": "Pose: Kai seated in a simple wooden chair, his right ankle resting on his left knee in a casual cross-leg pose, both hands relaxed on the chair arms, slight calm half-smile, gaze toward the camera. No phone in scene.",
+    "description": "Seated cross-legged in chair, relaxed",
+    "env_tags": ["abstract", "indoor_office"],
+    "props": []
+  },
+  {
+    "id": "sitting_couch_listening",
+    "prompt": "Pose: Kai seated on a small couch with his hands clasped together resting on his thighs, leaning slightly forward, head tilted slightly to the right in attentive listening, calm focused expression. No phone in scene.",
+    "description": "Seated on couch, attentive listening",
+    "env_tags": ["indoor_office"],
+    "props": []
+  },
+  {
+    "id": "sitting_legs_crossed_clipboard",
+    "prompt": "Pose: Kai seated in a chair with his legs crossed, clipboard resting on his right knee, pen in his right hand poised over the page, head down reviewing the clipboard, calm focused expression.",
+    "description": "Seated with clipboard on knee",
+    "env_tags": ["abstract", "indoor_office"],
+    "props": ["clipboard", "pen"]
+  },
+  {
+    "id": "sitting_review_papers",
+    "prompt": "Pose: Kai seated at a desk, both hands holding up a sheet of paper at chest height, eyes scanning the page, slight focused expression, no phone in scene. Reviewing-the-document energy.",
+    "description": "Seated reviewing papers",
+    "env_tags": ["indoor_office"],
+    "props": ["paper"]
+  },
+  {
+    "id": "listening_hand_at_chin",
+    "prompt": "Pose: Kai standing with his right hand at his chin in a thoughtful listening gesture, left hand at his side, head tilted slightly to the right, eyebrows neutral, mouth closed in a slight half-smile. The 'I am hearing you' frame. No phone.",
+    "description": "Standing, hand at chin, listening",
+    "env_tags": ["abstract", "any"],
+    "props": []
+  },
+  {
+    "id": "listening_arms_crossed",
+    "prompt": "Pose: Kai standing with arms loosely crossed over his chest, weight on one leg, head tilted slightly to one side, calm focused expression, mouth closed. Patient listening. No phone.",
+    "description": "Standing with arms crossed, listening",
+    "env_tags": ["abstract", "any"],
+    "props": []
+  },
+  {
+    "id": "listening_leaning_in",
+    "prompt": "Pose: Kai standing leaning slightly forward toward off-frame to his right, left hand cupping his ear faintly, right hand at his side, eyes focused, mouth closed. Hearing-something-important energy. No phone.",
+    "description": "Leaning in to listen",
+    "env_tags": ["abstract", "any"],
+    "props": []
+  },
+  {
+    "id": "listening_nodding",
+    "prompt": "Pose: Kai standing facing slightly off-frame, head mid-nod with chin slightly down, right hand holding a small notebook at chest height, left hand at his side, slight calm half-smile. The 'I follow you' frame. No phone.",
+    "description": "Mid-nod listening with notebook",
+    "env_tags": ["abstract", "any"],
+    "props": ["notebook"]
+  },
+  {
+    "id": "listening_taking_notes",
+    "prompt": "Pose: Kai standing, holding a small notebook open in his left hand at waist height, pen in his right hand mid-write on the page, head tilted slightly listening to off-frame, focused expression.",
+    "description": "Standing taking notes mid-listen",
+    "env_tags": ["abstract", "any"],
+    "props": ["notebook", "pen"]
+  },
+  {
+    "id": "pointing_off_frame_right",
+    "prompt": "Pose: Kai standing, right arm extended off-frame to the right with index finger pointing, left hand at his side, head following his point, calm focused half-smile. The 'see that over there' frame. No phone.",
+    "description": "Pointing off-frame right",
+    "env_tags": ["abstract", "any"],
+    "props": []
+  },
+  {
+    "id": "pointing_at_clipboard",
+    "prompt": "Pose: Kai standing, holding a clipboard up at chest height with his left hand, right index finger pointing at a specific line on the page, head tilted slightly down, slight focused half-smile. The 'see this line right here' frame.",
+    "description": "Pointing at line on clipboard",
+    "env_tags": ["abstract", "any"],
+    "props": ["clipboard"]
+  },
+  {
+    "id": "pointing_at_chart",
+    "prompt": "Pose: Kai standing in front of a wall-mounted chart or whiteboard partly visible behind him, right arm extended pointing at a section of the chart, left hand at his side, calm focused half-smile.",
+    "description": "Pointing at wall chart",
+    "env_tags": ["indoor_office"],
+    "props": []
+  },
+  {
+    "id": "pointing_at_camera",
+    "prompt": "Pose: Kai standing, right hand pointing directly at the camera with index finger extended, slight playful half-smile, left hand on his hip. The 'yes you' frame. No phone.",
+    "description": "Pointing at camera (you)",
+    "env_tags": ["abstract", "any"],
+    "props": []
+  },
+  {
+    "id": "pointing_at_diagram_paper",
+    "prompt": "Pose: Kai standing, holding a single sheet of paper out at chest height with both hands, head tilted down looking at it, slight focused expression. Studying-the-diagram energy.",
+    "description": "Holding diagram paper, studying",
+    "env_tags": ["abstract", "any"],
+    "props": ["paper"]
+  },
+  {
+    "id": "thinking_hand_chin",
+    "prompt": "Pose: Kai standing, right hand at his chin in classic thinker pose, left hand crossed in front of his body, head tilted slightly down, eyes focused off-camera, mouth closed. Mid-thought frame. No phone.",
+    "description": "Classic thinker, hand at chin",
+    "env_tags": ["abstract", "any"],
+    "props": []
+  },
+  {
+    "id": "thinking_finger_to_temple",
+    "prompt": "Pose: Kai standing, right index finger pressed to his temple in a thinking gesture, left hand in his trouser pocket, eyes off-camera with a slight focused expression. Mid-puzzle energy. No phone.",
+    "description": "Finger to temple thinking",
+    "env_tags": ["abstract", "any"],
+    "props": []
+  },
+  {
+    "id": "thinking_eyes_closed",
+    "prompt": "Pose: Kai standing, both hands clasped behind his back, eyes closed for a beat in a deep-think pause, slight neutral mouth. Calm thinking energy. No phone.",
+    "description": "Eyes-closed deep thinking",
+    "env_tags": ["abstract", "any"],
+    "props": []
+  },
+  {
+    "id": "thinking_papers_review",
+    "prompt": "Pose: Kai standing, holding a stack of papers in his left hand, right hand at his chin reading the top page, head tilted down, slight focused frown. Reviewing-and-processing energy.",
+    "description": "Standing reviewing paper stack",
+    "env_tags": ["abstract", "any"],
+    "props": ["paper"]
+  },
+  {
+    "id": "thinking_walking_slow",
+    "prompt": "Pose: Kai walking at a slow pace, both hands clasped behind his back, head down slightly in thought, calm focused expression. Pacing-while-thinking energy. No phone.",
+    "description": "Slow-pace walking thinking",
+    "env_tags": ["abstract", "any"],
+    "props": []
+  },
+  {
+    "id": "laughing_genuine",
+    "prompt": "Pose: Kai standing, head tilted back slightly mid-laugh, eyes closed, mouth open in a genuine laugh, right hand on his stomach, left hand at his side. Pure unguarded amusement. No phone.",
+    "description": "Genuine head-back laugh",
+    "env_tags": ["abstract", "any"],
+    "props": []
+  },
+  {
+    "id": "laughing_subtle_smirk",
+    "prompt": "Pose: Kai standing, mouth in a closed-lipped amused smirk, right eyebrow slightly raised, hands in his trouser pockets, eyes on camera. The 'I see what you did there' frame. No phone.",
+    "description": "Subtle amused smirk",
+    "env_tags": ["abstract", "any"],
+    "props": []
+  },
+  {
+    "id": "surprised_eyebrows_up",
+    "prompt": "Pose: Kai standing, eyebrows raised, mouth slightly open in a small 'oh' shape, right hand half-raised at chest height in a small gesture of mild surprise, left hand at his side. The 'didn't see that coming' frame. No phone.",
+    "description": "Mildly surprised, eyebrows up",
+    "env_tags": ["abstract", "any"],
+    "props": []
+  },
+  {
+    "id": "impressed_nodding",
+    "prompt": "Pose: Kai standing, head mid-nod with chin slightly down, mouth in a small impressed 'huh' shape, right hand half-raised palm-up in a 'fair enough' gesture. The 'that actually works' frame. No phone.",
+    "description": "Impressed approving nod",
+    "env_tags": ["abstract", "any"],
+    "props": []
+  },
+  {
+    "id": "celebrating_fist_air",
+    "prompt": "Pose: Kai standing, right fist raised at shoulder height in a small celebratory punch-the-air, slight smile, left hand at his side. Quiet 'we did it' energy. No phone.",
+    "description": "Celebratory fist punch in air",
+    "env_tags": ["abstract", "any"],
+    "props": []
+  },
+  {
+    "id": "celebrating_clapping",
+    "prompt": "Pose: Kai standing, both hands clapping together at chest height mid-clap, slight smile, eyes on camera. Encouraging-and-applauding energy. No phone.",
+    "description": "Clapping hands together",
+    "env_tags": ["abstract", "any"],
+    "props": []
+  },
+  {
+    "id": "working_typewriter",
+    "prompt": "Pose: Kai seated at a desk in front of a vintage typewriter, both hands on the typewriter keys mid-type, head down focused on the paper rolling out, calm focused expression. Old-school office worker energy. No phone in scene.",
+    "description": "Typing on vintage typewriter",
+    "env_tags": ["indoor_office"],
+    "props": ["typewriter", "paper"]
+  },
+  {
+    "id": "working_writing_letter",
+    "prompt": "Pose: Kai seated at a desk, an envelope and stamp visible beside an open letter, right hand mid-write on the letter with a fountain pen, left hand holding the paper steady, head down focused. Vintage correspondence energy.",
+    "description": "Writing a letter at desk",
+    "env_tags": ["indoor_office"],
+    "props": ["letter", "fountain_pen", "envelope"]
+  },
+  {
+    "id": "working_filing_cabinet",
+    "prompt": "Pose: Kai standing in front of an open filing cabinet drawer, right hand placing a manila folder into the drawer, left hand holding another folder at his side, slight focused expression. Records-keeper energy.",
+    "description": "Filing folders into cabinet",
+    "env_tags": ["indoor_office"],
+    "props": ["folder", "filing_cabinet"]
+  },
+  {
+    "id": "working_chalkboard",
+    "prompt": "Pose: Kai standing facing a small chalkboard, right hand holding chalk just off the board mid-thought, left hand on his hip, head tilted reading what he wrote, slight focused half-smile.",
+    "description": "At chalkboard with chalk",
+    "env_tags": ["indoor_office"],
+    "props": ["chalk", "chalkboard"]
+  },
+  {
+    "id": "working_holding_documents",
+    "prompt": "Pose: Kai standing, holding a stack of folders and papers in both hands at chest height like he is delivering them, slight calm half-smile, eyes on camera. Document-courier energy. No phone.",
+    "description": "Holding stack of folders/documents",
+    "env_tags": ["indoor_office", "any"],
+    "props": ["folders", "paper"]
+  }
+]
