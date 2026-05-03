@@ -2,6 +2,8 @@
 
 **AI illustrates, code animates.**
 
+<video src="https://twin.connorgallic.com/cartoonimator-demo.mp4" width="360" controls autoplay muted loop></video>
+
 Deterministic mascot animation: feed it a pose PNG, an audio WAV, and a few anchor coordinates. Get back a lip-synced cartoon video. No diffusion in the render loop, no frame-to-frame wobble, no GPU required.
 
 ```python
@@ -45,7 +47,13 @@ Install the package:
 pip install cartoonimator
 ```
 
-Render:
+Verify the install:
+
+```bash
+cartoonimator demo out.mp4
+```
+
+Render with your own audio:
 
 ```bash
 cartoonimator render \

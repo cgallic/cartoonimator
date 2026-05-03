@@ -3,7 +3,9 @@ from __future__ import annotations
 
 import argparse
 import json
+import subprocess
 import sys
+import tempfile
 from pathlib import Path
 
 from .mascot import render_scene
@@ -43,6 +45,54 @@ def _cmd_mix_music(args: argparse.Namespace) -> int:
 def _cmd_cut(args: argparse.Namespace) -> int:
     out = cut_window(args.input, args.start, args.end, args.output)
     print(f"wrote {out}")
+    return 0
+
+
+def _cmd_demo(args: argparse.Namespace) -> int:
+    """Render a sample MP4 using bundled Kai assets — verifies the install."""
+    pkg_root = Path(__file__).resolve().parent.parent.parent
+    kai_dir = pkg_root / "mascots" / "kai"
+    bg_path = pkg_root / "assets" / "backgrounds" / "solid_deep_navy_1080x1920.png"
+
+    if not kai_dir.is_dir() or not any((kai_dir / "poses").glob("*.png")):
+        print(
+            f"error: bundled Kai mascot not found at {kai_dir}. "
+            "Demo requires a source clone of the repo (poses are not in the wheel).",
+            file=sys.stderr,
+        )
+        return 1
+    if not bg_path.is_file():
+        print(f"error: bundled background not found at {bg_path}", file=sys.stderr)
+        return 1
+
+    with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as tmp_wav:
+        audio_path = Path(tmp_wav.name)
+    try:
+        proc = subprocess.run(
+            [
+                "ffmpeg", "-y",
+                "-f", "lavfi",
+                "-i", "anullsrc=channel_layout=mono:sample_rate=22050",
+                "-t", f"{args.duration:.2f}",
+                "-c:a", "pcm_s16le",
+                str(audio_path),
+            ],
+            capture_output=True, text=True,
+        )
+        if proc.returncode != 0:
+            print(f"ffmpeg failed: {proc.stderr[-300:]}", file=sys.stderr)
+            return 1
+
+        out = render_scene(
+            mascot=kai_dir,
+            audio_wav=audio_path,
+            background_png=bg_path,
+            output=args.output,
+            pose_cut_interval_s=2.0,
+        )
+        print(f"wrote {out}")
+    finally:
+        audio_path.unlink(missing_ok=True)
     return 0
 
 
@@ -150,6 +200,15 @@ def _build_parser() -> argparse.ArgumentParser:
     c.add_argument("--end", type=float, required=True, help="end in seconds")
     c.add_argument("--output", required=True, help="output MP4")
     c.set_defaults(func=_cmd_cut)
+
+    d = sub.add_parser(
+        "demo",
+        help="render a sample MP4 from bundled Kai assets — verifies the install works",
+    )
+    d.add_argument("output", help="path to output MP4")
+    d.add_argument("--duration", type=float, default=6.0,
+                   help="seconds of silent audio to drive the demo (default 6)")
+    d.set_defaults(func=_cmd_demo)
 
     b = sub.add_parser(
         "build-library",
