@@ -11,7 +11,7 @@
     <img src="assets/demo.gif" alt="Kai cycling through poses with synced mouth flap and a blink" width="360">
   </a>
   <br>
-  <em>▶ <a href="https://github.com/cgallic/cartoonimator/blob/main/demo.mp4">Watch in HD (MP4, 1.9 MB)</a></em>
+  <em>▶ <a href="https://github.com/cgallic/cartoonimator/blob/main/demo.mp4">Watch in HD (MP4, 4.3 MB)</a> — a real <a href="https://kaicalls.com">KaiCalls</a> commercial rendered with cartoonimator</em>
 </p>
 
 Deterministic mascot animation: feed it a pose PNG, an audio WAV, and a few anchor coordinates. Get back a lip-synced cartoon video. No diffusion in the render loop, no frame-to-frame wobble, no GPU required.
