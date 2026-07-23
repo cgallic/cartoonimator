@@ -169,3 +169,8 @@ MIT. See `LICENSE`.
 ## Made by
 
 Built by [Connor Gallic](https://connorgallic.com) alongside [KaiCalls](https://kaicalls.com) (AI voice agent) and [MeetKai](https://meetkai.xyz) (AI marketing execution). Kai — the reference mascot — is the shared brand character across both.
+
+
+---
+
+*Built and maintained by [Connor Gallic](https://pr.linkedin.com/in/cgallic) — connect on LinkedIn.*
